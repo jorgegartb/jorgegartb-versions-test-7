@@ -1,0 +1,3 @@
+NODE untitled_pipe_8036_0
+SQL >
+    SELECT * FROM blogauthors

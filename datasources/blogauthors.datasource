@@ -1,0 +1,18 @@
+SCHEMA >
+    `name` String,
+    `slug` String,
+    `collection_id` String,
+    `item_id` String,
+    `created_on` String,
+    `updated_on` String,
+    `published_on` Nullable(String),
+    `job_title` Nullable(String),
+    `profile_photo` String,
+    `twitter_username` Nullable(String),
+    `twitter_url` Nullable(String),
+    `linkedin_username` Nullable(String),
+    `linkedin_url` Nullable(String),
+    `hide_in_team_page` String
+
+ENGINE MergeTree
+ENGINE_SORTING_KEY name, updated_on, profile_photo, hide_in_team_page
