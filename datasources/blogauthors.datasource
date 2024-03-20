@@ -12,7 +12,8 @@ SCHEMA >
     `twitter_url` Nullable(String),
     `linkedin_username` Nullable(String),
     `linkedin_url` Nullable(String),
-    `hide_in_team_page` String
+    `hide_in_team_page` String,
+    `new_column` Nullable(String)
 
 ENGINE MergeTree
 ENGINE_SORTING_KEY name, updated_on, profile_photo, hide_in_team_page
