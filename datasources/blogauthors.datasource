@@ -1,5 +1,6 @@
 SCHEMA >
     `name` String,
+    `slug` String,
     `collection_id` String,
     `item_id` String,
     `created_on` String,
